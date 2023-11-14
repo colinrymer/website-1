@@ -101,7 +101,7 @@ go get github.com/fluxcd/notification-controller/api
 Import package
 
 ```go
-import notificationv1b2 "github.com/fluxcd/notification-controller/api/v1beta2"
+import notificationv1b3 "github.com/fluxcd/notification-controller/api/v1beta3"
 ```
 
 and for `Receiver` objects:
@@ -115,8 +115,8 @@ API Types
 | Name                                               | Version |
 |----------------------------------------------------|---------|
 | [Receiver](../components/notification/receiver.md) | v1      |
-| [Provider](../components/notification/provider.md) | v1beta2 |
-| [Alert](../components/notification/alert.md)       | v1beta2 |
+| [Provider](../components/notification/provider.md) | v1beta3 |
+| [Alert](../components/notification/alert.md)       | v1beta3 |
 
 ### image.toolkit.fluxcd.io
 
